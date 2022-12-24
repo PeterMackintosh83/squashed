@@ -114,50 +114,38 @@ h1, h2 {
     position: absolute;
 }
 
-/* details */
+/* Club Info */
 
-#details {
+#club-info {
     height: 600px;
+    background-color: aqua;
 }
 
-#top-left {
-    padding-top: 200px;
+#left-about {
+    padding-top: 30px;
     width: 50%;
     float: left;
-    background-color: red;
+    background-color: forestgreen;
 }
 
-#top-right {
-    padding-top: 200px;
+#right-about {
+    padding-top: 30px;
     width: 50%;
     float: right;
-    background-color: blue;
+    background-color: chocolate;
 }
 
-#middle-left {
-    padding-top: 200px;
-    width: 50%;
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 35%;
+    margin: 5px 0;
+}
+
+.left-about-info {
+    width: 100%;
     float: left;
-    background-color: blue;
-}
-
-#middle-right {
-    padding-top: 200px;
-    width: 50%;
-    float: right;
-    background-color: red;
-}
-
-#bottom-left {
-    padding-top: 200px;
-    width: 50%;
-    float: left;
-    background-color: red;
-}
-
-#bottom-right {
-    padding-top: 200px;
-    width: 50%;
-    float: right;
-    background-color: blue;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
