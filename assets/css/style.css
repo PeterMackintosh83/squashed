@@ -95,7 +95,7 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 80%;
     font-family: Galasio, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -103,7 +103,7 @@ h1, h2 {
     width: 300px;
     height: 100px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
@@ -117,8 +117,7 @@ h1, h2 {
 /* Club Info */
 
 #club-info {
-    height: 600px;
-    background-color: aqua;
+    height: 550px;
 }
 
 #left-about {
@@ -126,6 +125,7 @@ h1, h2 {
     width: 50%;
     float: left;
     background-color: forestgreen;
+    height: 500px;
 }
 
 #right-about {
@@ -133,6 +133,7 @@ h1, h2 {
     width: 50%;
     float: right;
     background-color: chocolate;
+    height: 500px;
 }
 
 hr {
@@ -148,4 +149,25 @@ hr {
     clear: both;
     margin-bottom: 50px;
     margin-left: 10px;
+}
+
+#club-information {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 150%;
+}
+
+#picture-container {
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#bg-picture {
+    background: url(../images/bg-picture.jpg) no-repeat center center;
+    height: 100%;
 }
