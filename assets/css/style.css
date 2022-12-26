@@ -168,7 +168,7 @@ hr {
 }
 
 #bg-picture1 {
-    background: url(../images/bg-picture1.jpg) no-repeat center center;
+    background: url('../images/bg-picture1.jpg') no-repeat center center;
     height: 100%;
 }
 
@@ -205,3 +205,40 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* basic rules background */
+
+#bg-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#rules-bg-image {
+    background: url('../images/playing-squash-rules-background.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
+
+#rules-text {
+    font-size: 50%;
+    font-family: Galasio, sans-serif;
+    letter-spacing: 2px;
+    
+    width: 70%;
+    height: 100%;
+
+    padding-top: 20px;
+    padding-left: 20px;
+
+    background-color: rgba(241, 109, 107, .3);
+    color: black;
+
+    top: 10px;
+    right: 500px;
+
+    position: absolute;
+}
+
+
