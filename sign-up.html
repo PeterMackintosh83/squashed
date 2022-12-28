@@ -36,35 +36,38 @@
 
         </nav>
     </header>
-    <section id="signup-bg-outer">
-        <div id="signup-bg-image"></div>
-    </section>
+    
     <section class="form-section">
-        <form method="POST" action="https:formdump.codeinstitute.net/" class="sign-up form">
-            <h2>Squashed Club Sign-Up Form Below:</h2>
+        <form class="signup-form" method="POST" action="https:formdump.codeinstitute.net/">
+            <h2>Squashed Club Sign-Up Form:</h2>
             <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="fname" required><br>
+            <input class="text-input" type="text" id="fname" name="fname" required><br>
             <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lname" required><br>
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <input class="text-input" type="text" id="lname" name="lname" required><br>
+            <label for="email">Enter Your Email:</label><br>
+            <input class="text-input" type="email" id="email" name="email" required><br><br>
+            <label for="ability">Please select one of the below according to your current ability:-</label><br>
+            <label for="radio">Novice</label>
             <input type="radio" id="ability" name="squash_ability" value="Novice" required>
+            <label for="radio">Proficient</label>
             <input type="radio" id="ability" name="squash_ability" value="Proficient" required>
-            <input type="radio" id="ability" name="squash_ability" value="Expert" required>
+            <label for="radio">Advanced</label>
+            <input type="radio" id="ability" name="squash_ability" value="Advanced" required><br><br>
             <input class="join-button" type="submit" value="Submit">
         </form>
-            <h3>Ability definitions below to aid selection criteria:</h3>
+    </section>
+            <h3>Ability definitions below to aid selection criteria:</h3><br>
             <p>Novice:-</p>
             <p>Basic understanding of rules, concepts and positioning on the court.</p>
-            <p>Basic ability to return a shot and perform a rally (sequence of back and forth shots).</p>
+            <p>Basic ability to return a shot and perform a rally (sequence of back and forth shots).</p><br>
             <p>Proficient:-</p>
             <p>General understanding of rules, concepts and positioning on the court.</p>
             <p>Ability to maintain a rally of 10 shots +</p>
-            <p>Competant to perform a range of shots (forehand, backhand, serve, drop, smash etc...).</p>
-            <p>Expert:-</p>
+            <p>Competant to perform a range of shots (forehand, backhand, serve, drop, smash etc...).</p><br>
+            <p>Advanced:-</p>
             <p>Full understanding of rules, concepts and positioning on the court.</p>
             <p>Experiance of competing in league/tournament competion.</p>
-        
+     
     <footer>
         <ul class="social-networks">
             <li>

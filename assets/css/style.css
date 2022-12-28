@@ -117,8 +117,9 @@ h1, h2 {
 /* Club Info */
 
 #club-info {
-    height: 200px;
+    height: 150px;
     text-align: center;
+    padding-top: 10px;
 }
 
 #left-about {
@@ -208,7 +209,7 @@ footer {
 
 /* basic rules background */
 
-#bg-outer {
+#bg-rules-outer {
     height: 1000px;
     width: 100%;
     overflow: hidden;
@@ -245,16 +246,54 @@ footer {
 
 /* signup background */
 
-#signup-bg-outer {
-    height: 1200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.form-section {
+    clear: left;
+    background: url('../images/overall-background-opaque-image.jpg') no-repeat center center;
     background-size: cover;
+    background-position: center;
+    height: 1200px;
 }
 
-#signup-bg-image {
-    background: url('../images/overall-background-opaque-image.jpg') no-repeat center center;
-    height: 100%;
+.signup-form {
+    margin: auto;
+    color: white;
+    background-color: rgba(60, 60, 60, 0.7);
+    max-width: 600px;
+    padding: 5%;
+    border: solid red;
+    
+}
+
+.signup-form > h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: #fafafa;
     width: 100%;
+    height: 25px;
+    margin: 5px 0 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.text-input:hover {
+    background-color: crimson;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: crimson;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: crimson;
 }
