@@ -74,6 +74,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/squashed-hero-image.webp) no-repeat center center;
+    background-size: contain;
+    
 
 
 /* animates zoom effect on loading page */
@@ -120,27 +122,87 @@ h1, h2 {
     height: 150px;
     text-align: center;
     padding-top: 10px;
+    background-color: #B88846;
 }
 
-#left-about {
-    padding-top: 10px;
-    width: 50%;
+#club-details-section {
+    width: 100%;
     float: left;
     background-color: lightpink;
-    height: 600px;
+    height: 450px;
 }
+
+#club-details-location {
+    width: 30%;
+    float: left;
+    height: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border: 25px solid #B88846;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+
+.club-details-location-text {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    
+    margin-bottom: 10px;
+}
+
+#club-details-court-times {
+    width: 30%;
+    margin: 0 auto;
+    height: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    border: 25px solid #B88846;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+
+.club-details-court-times-text {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    
+    margin-bottom: 10px;
+}
+
+#club-details-court-prices {
+    width: 30%;
+    float: right;
+    height: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    border: 25px solid #B88846;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+
+.club-details-court-prices-text {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    
+    margin-bottom: 10px;
+}
+
 
 #right-about-top {
-    width: 50%;
+    width: 55%;
     float: right;
     background-color: chocolate;
-    height: 310px;
+    height: 300px;
 }
 
+/* map */
+
 #right-about-bottom {
-    width: 50%;
+    width: 55%;
     float: right;
-    background-color: yellowgreen;
+    
     height: 300px;
 }
 
@@ -150,16 +212,6 @@ hr {
     margin: auto;
 }
 
-.left-about-info {
-    width: 100%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    text-align: center;
-}
 
 #club-information {
     text-align: center;
@@ -169,13 +221,15 @@ hr {
 
 #picture-container1 {
     width: 100%;
-    height: 100%;
+    height: 600px;
     padding: 0px;
 }
 
 #bg-picture1 {
     background: url('../images/bg-picture1.jpg') no-repeat center center;
     height: 100%;
+    background-size: cover;
+    
 }
 
 /* footer */
@@ -225,7 +279,7 @@ footer {
     background: url('../images/playing-squash-rules-background.jpg') no-repeat center center;
     height: 100%;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 #rules-text {
@@ -256,22 +310,24 @@ footer {
     background: url('../images/overall-background-opaque-image.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 900px;
 }
 
 .signup-form {
     margin: auto;
     color: white;
     background-color: rgba(60, 60, 60, 0.7);
-    max-width: 600px;
+    width: 35%;
     padding: 5%;
     border: solid red;
+    
     
 }
 
 .signup-form > h2 {
-    color: black;
+    color: white;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-input {
@@ -302,3 +358,15 @@ footer {
     background-color: #fafafa;
     color: crimson;
 }
+
+.ability-definition {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+
