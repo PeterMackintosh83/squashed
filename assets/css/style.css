@@ -74,7 +74,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/squashed-hero-image.webp) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     
 
 
@@ -102,16 +102,15 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     
-    width: 300px;
-    height: 100px;
+    width: 500px;
+    height: 80px;
 
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
     top: 25px;
-    right: 1010px;
+    left: 25px;
 
     position: absolute;
 }
@@ -122,20 +121,20 @@ h1, h2 {
     height: 150px;
     text-align: center;
     padding-top: 10px;
-    background-color: #B88846;
+    background-color: bisque;
 }
 
 #club-details-section {
     width: 100%;
     float: left;
-    background-color: lightpink;
+    background-color: bisque;
     height: 450px;
 }
 
 #club-details-location {
     width: 30%;
     float: left;
-    height: 350px;
+    height: 340px;
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -148,13 +147,13 @@ h1, h2 {
     text-align: center;
     line-height: 20px;
     
-    margin-bottom: 10px;
+   
 }
 
-#club-details-court-times {
+#club-details-opening-times {
     width: 30%;
     margin: 0 auto;
-    height: 350px;
+    height: 340px;
     padding-top: 25px;
     padding-bottom: 25px;
     
@@ -162,18 +161,17 @@ h1, h2 {
     border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 }
 
-.club-details-court-times-text {
+.club-details-opening-times-text {
     width: 100%;
     text-align: center;
     line-height: 20px;
     
-    margin-bottom: 10px;
 }
 
 #club-details-court-prices {
     width: 30%;
     float: right;
-    height: 350px;
+    height: 340px;
     padding-top: 25px;
     padding-bottom: 25px;
     
@@ -186,24 +184,42 @@ h1, h2 {
     text-align: center;
     line-height: 20px;
     
-    margin-bottom: 10px;
+   
 }
 
+/* Home page, bottom, picture & map section */
 
-#right-about-top {
-    width: 55%;
-    float: right;
+#bottom-section {
+    width: 100%;
+    float: left;
+    background-color: lightblue;
+    height: 450px;
+}
+
+/* picture */
+
+#left-about-bottom {
+    width: 50%;
+    float: left;
     background-color: chocolate;
-    height: 300px;
+    height: 450px;
+    padding: 0px;
 }
+
+#bg-picture1 {
+    background: url('../images/bg-picture1.jpg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    position: static;
+}
+
 
 /* map */
 
 #right-about-bottom {
-    width: 55%;
+    width: 50%;
     float: right;
-    
-    height: 300px;
+    height: 450px;
 }
 
 hr {
@@ -219,23 +235,13 @@ hr {
     font-size: 150%;
 }
 
-#picture-container1 {
-    width: 100%;
-    height: 600px;
-    padding: 0px;
-}
 
-#bg-picture1 {
-    background: url('../images/bg-picture1.jpg') no-repeat center center;
-    height: 100%;
-    background-size: cover;
-    
-}
 
 /* footer */
 
 footer {
     height: 150px;
+    background-color: #B88846;
 }
 
 .social-networks {
@@ -247,7 +253,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 150%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -283,12 +289,12 @@ footer {
 }
 
 #rules-text {
-    font-size: 80%;
+    font-size: 100%;
     font-family: Galasio, sans-serif;
     letter-spacing: 2px;
     
     width: 65%;
-    height: 100%;
+    height: 900px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -297,13 +303,22 @@ footer {
     color: black;
 
     top: 10px;
-    right: 430px;
+    left: 30px;
 
     position: absolute;
+    
+}
+
+#rules-text > h3 {
+    text-decoration: underline;
+}
+
+#rules-text > h2 {
+    text-align: center;
 }
 
 
-/* signup background */
+/* signup background & form */
 
 .form-section {
     clear: left;
@@ -320,8 +335,13 @@ footer {
     width: 35%;
     padding: 5%;
     border: solid red;
-    
-    
+    height: 650px;
+    padding-top: 30px;
+}
+
+#form-body {
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .signup-form > h2 {
@@ -346,12 +366,13 @@ footer {
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: crimson;
     color: #fafafa;
     display: block;
+    margin: 0 auto;
 }
 
 .join-button:hover {
@@ -359,14 +380,16 @@ footer {
     color: crimson;
 }
 
-.ability-definition {
+.ability-definition-text {
     width: 100%;
     float: left;
     line-height: 20px;
-    clear: both;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-left: 10px;
     text-align: center;
+}
+
+#definition-box {
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
 }
 
