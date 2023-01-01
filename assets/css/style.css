@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,15 +7,15 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Pt-serif, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Galasio, sans-serif;
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -25,17 +25,19 @@ h1, h2 {
     float: left;
     font-size: 500%;
     margin-left: 30px;
+    
+    
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 2px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 #menu li {
@@ -50,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #FF0000;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #FF0000;
 }
 
 /* hero image and cover text */
@@ -64,10 +66,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: black;
+    border: solid red;
 }
 
 #hero-image {
@@ -97,68 +96,106 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 80%;
-    font-family: Galasio, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    width: 50%;
+    height: 60px;
     
-    width: 500px;
-    height: 80px;
 
     padding: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(255, 255, 255, 0.3);
 
     top: 25px;
     left: 25px;
 
     position: absolute;
+    
+}
+
+#cover-text > h2 {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#cover-text > h4 {
+    font-size: 120%;
+    letter-spacing: 2px;
+    font-family: Pt-serif, sans-serif;
+    font-weight: 500;
 }
 
 /* Club Info */
 
-#club-info {
+#club-info-section {
+    height: 200px;
+    width: 100%;
+    background-color: #fafafa;
+    border: solid red;
+}
+
+#club-info-div {
     height: 150px;
+    width: 100%;
+    font-size: 1vw;
     text-align: center;
-    padding-top: 10px;
-    background-color: bisque;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #club-details-section {
     width: 100%;
     float: left;
-    background-color: bisque;
+    background-color: #fafafa;
     height: 450px;
+    border: solid red;
 }
 
 #club-details-location {
     width: 30%;
     float: left;
+    padding-left: 10px;
     height: 340px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 
-    border: 25px solid #B88846;
-    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+    border: 25px solid #FF0000;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23FF0000' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23FF0000'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 }
 
 .club-details-location-text {
     width: 100%;
     text-align: center;
     line-height: 20px;
+}
+
+#asv-logo-area {
+    width: 50%;
+    height: 100px;
     
-   
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: white;
+    
+}
+
+#asv-logo {
+    height: 100%;
+    width: 100%;
+    background: url(../images/asv-logo.png) no-repeat center center;
+    background-size: contain;
+    
+    
 }
 
 #club-details-opening-times {
     width: 30%;
     margin: 0 auto;
     height: 340px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     
-    border: 25px solid #B88846;
-    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+    border: 25px solid #FF0000;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23FF0000' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23FF0000'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 }
 
 .club-details-opening-times-text {
@@ -171,28 +208,43 @@ h1, h2 {
 #club-details-court-prices {
     width: 30%;
     float: right;
+    padding-right: 10px;
     height: 340px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     
-    border: 25px solid #B88846;
-    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+    border: 25px solid #FF0000;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23FF0000' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23FF0000'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 }
 
 .club-details-court-prices-text {
     width: 100%;
     text-align: center;
     line-height: 20px;
-    
-   
 }
 
-/* Home page, bottom, picture & map section */
+#court-prices-div {
+    width: 60%;
+    height: 200px;
+    border: solid black;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#court-prices-picture {
+    height: 100%;
+    width: 100%;
+    background: url(../images/squash-picture.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+
+/* Home page, bottom section */
 
 #bottom-section {
     width: 100%;
     float: left;
-    background-color: lightblue;
+    border: solid red;
     height: 450px;
 }
 
@@ -201,7 +253,7 @@ h1, h2 {
 #left-about-bottom {
     width: 50%;
     float: left;
-    background-color: chocolate;
+    
     height: 450px;
     padding: 0px;
 }
@@ -211,6 +263,7 @@ h1, h2 {
     height: 100%;
     background-size: cover;
     position: static;
+    border-right: solid #FF0000;
 }
 
 
@@ -229,11 +282,7 @@ hr {
 }
 
 
-#club-information {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 150%;
-}
+
 
 
 
@@ -241,7 +290,7 @@ hr {
 
 footer {
     height: 150px;
-    background-color: #B88846;
+    
 }
 
 .social-networks {
@@ -253,7 +302,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -325,18 +374,19 @@ footer {
     background: url('../images/overall-background-opaque-image.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1200px;
 }
 
 .signup-form {
     margin: auto;
     color: white;
-    background-color: rgba(60, 60, 60, 0.7);
-    width: 35%;
+    background-color: rgba(60, 60, 60, 0.8);
+    width: 40%;
     padding: 5%;
     border: solid red;
-    height: 650px;
-    padding-top: 30px;
+    height: 900px;
+    padding-top: 50px;
+    border-radius: 25px;
 }
 
 #form-body {
@@ -365,7 +415,7 @@ footer {
 
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 25px;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
@@ -388,7 +438,7 @@ footer {
 }
 
 #definition-box {
-    width: 600px;
+    width: 100%;
     height: 400px;
     margin-top: 50px;
 }
