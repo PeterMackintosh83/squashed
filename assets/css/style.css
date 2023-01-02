@@ -108,6 +108,7 @@ h1, h2, h3 {
     left: 25px;
 
     position: absolute;
+    border-radius: 25px;
     
 }
 
@@ -117,8 +118,8 @@ h1, h2, h3 {
 }
 
 #cover-text > h4 {
-    font-size: 120%;
-    letter-spacing: 2px;
+    font-size: 100%;
+    letter-spacing: 1px;
     font-family: Pt-serif, sans-serif;
     font-weight: 500;
 }
@@ -140,6 +141,11 @@ h1, h2, h3 {
     margin: auto;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+#club-info-div > h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 #club-details-section {
@@ -166,6 +172,11 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     line-height: 20px;
+}
+
+.club-details-location-text > h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 #asv-logo-area {
@@ -205,6 +216,11 @@ h1, h2, h3 {
     
 }
 
+.club-details-opening-times-text > h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 #club-details-court-prices {
     width: 30%;
     float: right;
@@ -221,6 +237,11 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     line-height: 20px;
+}
+
+.club-details-court-prices-text > h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 #court-prices-div {
@@ -358,12 +379,15 @@ footer {
     
 }
 
+
+
 #rules-text > h3 {
     text-decoration: underline;
 }
 
 #rules-text > h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -441,5 +465,30 @@ footer {
     width: 100%;
     height: 400px;
     margin-top: 50px;
+}
+
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-details-section {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #club-info-section {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #club-details-location, #club-details-opening-times, #club-details-court-prices {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
 }
 
