@@ -27,6 +27,7 @@ h1, h2, h3 {
     margin-left: 30px;
     
     
+    
 }
 
 /* navigation links */
@@ -66,7 +67,7 @@ h1, h2, h3 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    border: solid red;
+    
 }
 
 #hero-image {
@@ -130,7 +131,8 @@ h1, h2, h3 {
     height: 200px;
     width: 100%;
     background-color: #fafafa;
-    border: solid red;
+    border-bottom: solid 2px black;
+    
 }
 
 #club-info-div {
@@ -138,7 +140,7 @@ h1, h2, h3 {
     width: 100%;
     font-size: 100%;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -154,14 +156,15 @@ h1, h2, h3 {
     width: 100%;
     background-color: #fafafa;
     height: 450px;
-    border: solid blue;
+    
+    
 }
 
 #club-details-location {
     width: 33%;
     float: left;
     height: 450px;
-    background-color: lightpink;
+    
     
     
 }
@@ -170,7 +173,7 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     line-height: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .club-details-location-text > h2 {
@@ -200,7 +203,6 @@ h1, h2, h3 {
     width: 33%;
     margin: 0 auto;
     height: 450px;
-    background-color: aquamarine;
     
 }
 
@@ -208,19 +210,19 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     line-height: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
-/* .club-details-opening-times-text > h2 {
+.club-details-opening-times-text > h2 {
     text-align: center;
     text-decoration: underline;
-} */
+}
 
 #club-details-court-prices {
     width: 33%;
     float: right;
     height: 450px;
-    background-color: aqua;
+    
     
 }
 
@@ -228,7 +230,7 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     line-height: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .club-details-court-prices-text > h2 {
@@ -237,9 +239,9 @@ h1, h2, h3 {
 }
 
 #court-prices-picture-div {
-    width: 60%;
+    width: 40%;
     height: 200px;
-    border: solid black;
+    
     margin: 0 auto;
     margin-top: 5%;
 }
@@ -247,7 +249,7 @@ h1, h2, h3 {
 #court-prices-picture {
     height: 100%;
     width: 100%;
-    background: url(../images/squash-picture.jpg) no-repeat center center;
+    background: url(../images/squash-ball.jpg) no-repeat center center;
     background-size: cover;
     
 }
@@ -256,18 +258,17 @@ h1, h2, h3 {
 
 #bottom-section {
     width: 100%;
-    border: solid red;
     height: 450px;
 }
 
 /* picture */
 
 #left-about-bottom {
-    width: 50%;
+    width: 49.9%;
     float: left;
-    
     height: 450px;
     padding: 0px;
+    
 }
 
 #bg-picture1 {
@@ -275,16 +276,17 @@ h1, h2, h3 {
     height: 100%;
     background-size: cover;
     position: static;
-    border-right: solid #FF0000;
+    
 }
 
 
 /* map */
 
 #right-about-bottom {
-    width: 50%;
+    width: 49.9%;
     float: right;
     height: 450px;
+    
 }
 
 
@@ -465,7 +467,7 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screen sizes from 1200px wide and down */
+/* For larger to medium screen sizes from 1200px wide and down (tablet viewing) */
 
 @media screen and (max-width: 1200px) {
     
@@ -486,6 +488,7 @@ footer {
         width: 65%;
         height: 300px;
         margin: 0 auto;
+        
     }
 
     #club-info-div {
@@ -508,6 +511,7 @@ footer {
         padding: 0;
         margin: 0 auto;
         float: none;
+        border: solid #FF0000;
     }
 
    
@@ -523,10 +527,11 @@ footer {
         padding: 0;
         margin: 0 auto;
         float: none;
+        
     }
 
     .social-networks i {
-        font-size: 150%;
+        font-size: 120%;
     }
 
     #bg-rules-outer {
