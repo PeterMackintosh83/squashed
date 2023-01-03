@@ -342,6 +342,7 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 #rules-bg-image {
@@ -349,6 +350,7 @@ footer {
     height: 100%;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 #rules-text {
@@ -457,13 +459,13 @@ footer {
 #definition-box {
     width: 100%;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
 /* Media queries */
 
-/* For larger to medium screen sizes from 1200px wide (Tablet) and down */
+/* For larger to medium screen sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     
@@ -482,6 +484,12 @@ footer {
     
     #club-info-section {
         width: 65%;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    #club-info-div {
+        width: 90%;
         height: 300px;
         margin: 0 auto;
     }
@@ -520,10 +528,26 @@ footer {
     .social-networks i {
         font-size: 150%;
     }
+
+    #bg-rules-outer {
+        height: 1200px;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #rules-text {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .signup-form {
+        width: 50%;
+    }    
     
 }
 
-/* For medium screens sizes from 950px wide (Mobile) and down */
+/* For medium screens sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
     
@@ -537,6 +561,12 @@ footer {
         height: 300px;
         margin: 0 auto;
     }
+
+    #club-info-div {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+    }
     
     
     #club-details-section {
@@ -544,6 +574,8 @@ footer {
         height: 1200px;
         margin: 0 auto;
     }
+
+    
 
     
     #club-details-location, #club-details-court-prices, #club-details-opening-times {
@@ -573,8 +605,24 @@ footer {
         font-size: 100%;
     }
 
+    #bg-rules-outer {
+        height: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #rules-text {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
     #photos {
         column-count: 3;
+    }
+
+    .signup-form {
+        width: 70%;
     }
 
 }
@@ -585,4 +633,6 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    
 }
