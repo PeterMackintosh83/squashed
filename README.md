@@ -49,7 +49,7 @@
 
 - Basic Rules of Squash
   - This page outlines the basic rules of the game of squash. A full screen image of an exhausted squash player lying on a court was used as a background for this page. The image was selected as it is relevant to the subject of the webpage and had the desired layout required for the background to this page. The image layout has the main image body (the squash player) only taking up approximately one third of the right side of the image, leaving a large clear section on the left side showing only empty squash court. This clear area was used as background for overlaying the text detailing the rules. A single icon showing a checklist was selected and positioned next to the page heading for aesthetic purposes. The image was fixed so that it would remain in place whilst scrolling down through the rules, this was acheived by setting the background-attachment to fixed. This page is valuable in that it states the rules of the sport, these rules can be used by beginners still learning the sport or by more experianced club members as a reference point to resolve any match related disagreements.
-  - the background image to this page was modified using Microsoft Paint. The court markings to the left of the image were edited as I didnt like the weffect of having this line running through the section of text.
+  - the background image to this page was modified using Microsoft Paint. The court markings to the left of the image were edited as I didnt like the effect of having this line running through the section of text.
   
 ![Basic Rules of Squash](assets/images/rules-readme.JPG)
 
@@ -93,7 +93,7 @@
 
 ![Gallery Wireframe](assets/images/gallery-wireframe.jpg)
 
-- The Gallery page wireframe was detailed showing only the body of the page. Different image sizes and styles were experimented with during the creation of this page. The masonry style of gallery was settled on with four columns of images being shown on the largest screen size. This is gradually reduced to columns of 2 images for the smallest device screen size which would be as displayed on a mobile phone screen.
+- The Gallery page wireframe was detailed showing only the body of the page. Different image sizes and styles were experimented with during the creation of this page. The masonry style of gallery was settled on with four columns of images being shown on the largest screen size. This is gradually reduced to columns of two images for the smallest device screen size which would be as displayed on a mobile phone screen.
 
 ### Sign-Up Page Wireframe
 
@@ -117,11 +117,24 @@
 
 ## Testing
 
+ - I tested that this page worked across different browsers: Chrome, Safari & Firefox.
+ - I manually tested all pages of the website using the inspect tool. Each page was reduced/increased in size with modifcations made using media querys to ensure website structure remained responsive and that all text remained legible and clear.
+ - The form section has been fully tested, see attached Manual Test sheet below for further details:-
+
+![Manual Testing](assets/images/manual.testing.jpg) 
+
+### Bugs
+- When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was ../ when it should have been ./ - Removing the extra . meant the xxxxxxxxxxxxx
+
 ## Technologies Used
 
 ## Deployment & Local Deployment
 
-## Testing
+## Validator Testing
+- HTML
+  - xxx
+- CSS
+  - xxx
 
 ## Credits
 
