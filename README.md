@@ -5,7 +5,7 @@
 <p>Squashed squash club plays out of the Aberdeen Sports Village (ASV) Sports Center. ASV houses 4 commonwealth standard squash courts and a viewing gallery for spectators.</p>
 <p>Squashed intends to bring fellow squash enthusiasts together, promoting healthy competition, an active lifestyle and helping showcase the many enticing aspects of the sport.</p>
 
-![Resposive Mock-up](assets/images/am-i-responsive-image.JPG)
+![Responsive Mock-up](assets/images/am-i-responsive-image.JPG)
 
 ## Features
 - Navigation Bar
@@ -73,7 +73,23 @@
 - Features Left to Implement
   - A page or section dedicated to the mentoring of novice club members by more experianced members. This page would contain videos aimed at improving players technical abilities and positioning on the court. There would be a tips section where members can add advice they have found beneficial to improving their own game. This page would also contain a section for arranging one on one training/practice sessions with any seasoned club members wishing to pass on their experiance/knowledge to the next generation of squash players.
 
-## Wireframes
+## UX/UI Section
+
+### Site Goals
+The goal of Squashed is to bring together squash players of all abilitys from the Aberdeen City and Aberdeenshire area to join a club for fellow squash enthusiasts. The club website provides the following details:-
+- Club history: when and by who the club was founded.
+- Details of the facility where the club plays its matches including location, opening times, closing times and cost of court hire.
+- Rules of the sport of squash.
+- Gallery images of squashed club members.
+- Membership sign-up where current squash ability details are required in order to group players with the aim of 
+
+
+
+### Design Choices
+
+### User Stories
+
+### Wireframes
 
 - The wireframes for this project were created using hand drawn sketches. As the project developed it remained largely consistant to the wireframe plan with only minor changes occuring. Details of said changes are elaborated on below each wireframe:-
 
@@ -107,28 +123,61 @@
    - The colours used were red, black and white. The reason being these are the standard colours of the markings on a squash court. White for the walls of the court, red for the service and boundry lines and black for the front wall, bottom boundry line (also known as the tin).
 
   - Typography
-   - xxx
+   - The Roboto font was used for title & headings and the PT Serif font was used for the body of the website. The backup style is Sans-serif should the selected fonts fail to load correctly. I felt both these fonts complemented each other well whilst being easily readable and having a modern look.
 
   - Images
-   - xxx
+   - The hero image is a bright and clean image making the website easily identifiable with the sport of Squash. The colours of the hero image are the same colours as used throughout the website - which are the same colours as would be found on a squash court.
+   - The Aberdeen Sports Village Image is incorporated to aid new club members finding the venue where the squash clubs matches will be played. The image was chosen as it shows the sports center looking clean and inviting which aims to heighten the appeal of joining the club.
+   - Home Page stock image of a squash ball was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
+   - The Home Page stock image of an illustration of a squash racket was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
+   - The Basic Rules of Squash image is a background image that fills the entire body section of the page. The image is of an exhausted squash player lying on a court. The image was selected as it is relevant to the subject of the webpage and had the desired layout required; whereby the main image body (the squash player) is situated to one side of the image. This leaves a large clear area showing only empty squash court which was used for overlaying the text detailing the rules of the sport. The image was doctored using Paint 3D to remove some of the court markings that entered the text section area and obscured the text.
+   - The Sign-up page image is a background image that fills the entire body section of the page. The image chosen is of an empty squash court. This image was chosen as it correlates with the topic of the website, the image colour scheme ties in with the colour theme of the site (squash court marking colours - white, black and red) and it also acts as a border to the main element of the page which is the sign-up form itself.
 
   - Icons
-   - xxx
+   - Icons were incorporated from Font Awesome for aesthetic and UX purposes. Icons were used for the following headings - Club Information, Club Address, Opening Hours, Court Price and Basic Rules of Squash.
 
 ## Testing
 
- - I tested that this page worked across different browsers: Chrome, Safari & Firefox.
+ - I tested that this page worked across the following browsers:
+   - Chrome
+   - Safari
+   - Firefox
+   - Microsoft Edge
  - I manually tested all pages of the website using the inspect tool. Each page was reduced/increased in size with modifcations made using media querys to ensure website structure remained responsive and that all text remained legible and clear.
  - The form section has been fully tested, see attached Manual Test sheet below for further details:-
 
 ![Manual Testing](assets/images/manual.testing.jpg) 
 
 ### Bugs
-- When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was ../ when it should have been ./ - Removing the extra . meant the xxxxxxxxxxxxx
+- When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was set as ../ when it should have been ./ - Removing the extra . meant the xxxxxxxxxxxxx
 
 ## Technologies Used
+- HTML5
+- CSS3
 
 ## Deployment & Local Deployment
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps:-
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+- Scroll down the Settings page until you locate the "GitHub Pages" Section.
+- Under "Source", click the dropdown called "None" and select "Master Branch", the page will automatically refresh.
+- Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:-
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+- Log in to GitHub and locate the GitHub Repository
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL you copied in Step 3.
+- Press Enter. Your local clone will be created.
 
 ## Validator Testing
 - HTML
