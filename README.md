@@ -187,5 +187,42 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Credits
 
+### Content
+- The Basic Rules of Squash text content was taken from http://www.squashsa.asn.au/w/participation/basic-guide-to-squash
+- The icons used for the following headings: Club Information, Club Address, Opening Hours, Court Price and Basic Rules of Squash were taken from https://fontawesome.com
+- The map section was sourced from https://www.google.com/maps
+- Instructions on how to add a google map to my webpage was taken from https://blog.duda.co/responsive-google-maps-for-your-website
+- The icons in the footer were taken from https://fontawesome.com
+
+### Media
+#### Home Page
+- The following Home Page images were sourced from the following sites listed adjacent:-
+  - The Hero Image on this page was sourced from the following site: https://integralspor.com/sports-facilities/squash-courts
+  - The Club Information Image on this page was sourced from the following site: https://www.pinterest.co.uk/pin/squash-sport-icon-illustration-ad-ad-sportsquashillustrationicon--841117667891098365/
+  - The Aberdeen Sports Village logo image on this page was sourced from the following site: https://www.sportaberdeen.co.uk/news/aberdeen-sports-village-supports-local-awards
+  - The Court Price image on this page was sourced from the following site: https://www.shutterstock.com/search/squash-ball
+  - The Aberdeen Sports Village facility image on this page was sourced from the following site: https://en.wikipedia.org/wiki/Aberdeen_Sports_Village
+
+#### Basic Rules of Squash Page
+- The background image on this page was sourced from the following site: https://www.freepik.com/free-photos-vectors/squash-player/8
+
+#### Gallery
+- The following Gallery images were sourced from the following sites listed adjacent:-
+  - squash-photo-1, sourced from site: https://racquets-fitness-centre.com/tim-vail-training-at-racquets/
+  - squash-photo-2, sourced from site: https://www.psclondon.com/squash
+  - squash-photo-3, sourced from site: http://tenrandomfacts.com/squash-sport/
+  - squash-photo-4, sourced from site: https://www.englandsquash.com/get-involved/play/ways-to-play/junior-squash
+  - squash-photo-5, sourced from site: https://www.spencersquash.club/2018/10/22/monday-night-team-training-on-hold/
+  - squash-photo-6, sourced from site: https://cambs-squash.uk/cambridgeshire-junior-squash/
+  - squash-photo-7, sourced from site: https://juniorsquashcornwall.wordpress.com/2017/08/08/junior-training-on-tuesdays-at-truro-squash-and-racketball-club/
+  - squash-photo-8, sourced from site: https://surreysquash.co.uk/events/
+  - squash-photo-9, sourced from site: https://interactivesquash.com/squash-coaching/
+  - squash-photo-10, sourced from site: https://www.scottishsquash.org/junior-champ-lucy-aims-to-bridge-gap-with-senior-pros/
+  - squash-photo-11, sourced from site: https://surreysquash.co.uk/events/list/page/2/?tribe-bar-date=2022-06-08
+  - squash-photo-12, sourced from site: https://squash.ua/en/news/nordic-junior-squash-open-2022-rezultaty
+ 
+#### Sign Up Page
+- The background image on this page was sourced from the following site: https://asbsquash.com/timeline/info/14/squash-floor-solid-hardwood-or-engineered/
+
 
 
