@@ -479,7 +479,7 @@ footer {
     color: crimson;
 }
 
-.ability-definition-text {
+#ability-definition-text {
     width: 100%;
     float: left;
     line-height: 20px;

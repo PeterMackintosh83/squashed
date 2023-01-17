@@ -33,13 +33,13 @@
 
 ![Club Details Section](assets/images/club-details-section-readme.JPG)
 
-- Home Page Bottom Section
-    - The Bottom Section consists of two sections which are horizontally positioned when viewed on screen sizes of 1200 pixels and above. When viewed on screen sizes of below 1200px the two sections become vertically stacked. Details of the two sections are as follows:-
+- Club Location Section
+    - The Club Location Section consists of two sections which are horizontally positioned when viewed on screen sizes of 1200 pixels and above. When viewed on screen sizes of below 1200px the two sections become vertically stacked. Details of the two sections are as follows:-
       - A large image of the Aberdeen Sports Village is positioned on the left of this section (then at the top when viewed below 1200px). This image displays the ASV on a clear summers day. This image was chosen as I felt it shows the facility looking clean and inviting. I felt it was important to have a large image showcasing the sports center due to it being an integral part of the club and also to aid locating the venue for new club members.
       - A large google map showing the location of the Aberdeen Sports Village (centered on the map and identified with a pointer) is positioned on the right of this section (then beneath when viewed below 1200px). The map contains the ASV address, a star rating of the facility and a pointer showing exact location. This map is interactive within the webpage, you can zoom in and out or move around the map at will.
       - The two sections together (image of ASV and map showing location) provide all the details required to find the venue with ease.
 
-![Home Page Bottom Section](assets/images/bottom-section-readme.JPG)
+![Club Location Section](assets/images/club-location-section-readme.JPG)
 
 - The Footer
   - The footer section includes links to the relevant social media sites for Squashed. The links will open to a new tab to allow easy navigation for the user and ease of return to the original site.
@@ -149,7 +149,9 @@ The goal of Squashed is to bring together squash players of all abilitys from th
 ![Manual Testing](assets/images/manual.testing.jpg) 
 
 ### Bugs
-- When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was set as ../ when it should have been ./ - Removing the extra . meant the xxxxxxxxxxxxx
+- When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was set as ../ when it should have been ./ - Removing the extra . meant the stylesheet was able to be located correctly and the styles added as desired.
+- When running my project through W3C HTML Validator the following warning was displayed "Section Lacks Heading" for sections of the index.html and the gallery.html pages. This was resolved using code sourced from a software designer on Slack whereby a hidden heading is added to the relevant sections.
+- When running my project through W3C HTML Validator an error was declared on the Sign-up page. I had added a label to a descriptive piece of text above the radio buttons when all that was required was a p tag.
 
 ## Technologies Used
 - HTML5
@@ -181,9 +183,19 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Validator Testing
 - HTML
-  - xxx
+  - No errors were returned when passing through the official W3C HTML Validator.
+
+  ![HTML Validator Results](assets/images/W3C%20HTML%20Validator%20Results.JPG)
+
 - CSS
-  - xxx
+  - No errors were returned when passing through the official W3C CSS Validator (Jigsaw).
+
+  ![CSS Validator Results](assets/images/W3C%20CSS%20Validator%20Results.JPG)
+
+- Accessibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools, please see below results showing a score of 94 for Accessibility.
+
+  ![Lighthouse Accessibility Results](assets/images/Lighthouse%20Accessibility%20Score.JPG)
 
 ## Credits
 
