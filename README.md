@@ -1,9 +1,9 @@
 # Squashed
 
-<p>Squashed is a website for an Aberdeen City based squash club, with a further catchment area of the surrounding Aberdeenshire region.</p>
-<p>Squashed is aimed at squash players of all abilities and experience with the only stipulation being that they are above the age of 6 years old.</p>
-<p>Squashed squash club plays out of the Aberdeen Sports Village (ASV) Sports Center. ASV houses 4 commonwealth standard squash courts and a viewing gallery for spectators.</p>
-<p>Squashed intends to bring fellow squash enthusiasts together, promoting healthy competition, an active lifestyle and helping showcase the many enticing aspects of the sport.</p>
+Squashed is a website for an Aberdeen City based squash club, with a further catchment area of the surrounding Aberdeenshire region.
+The aim of the site is to bring together squash players of all abilities and experience - the only stipulation being that any members are above the age of 6 years old.
+Squashed squash club plays out of the Aberdeen Sports Village (ASV) Sports Center. ASV is an elite level sports complex which houses 4 commonwealth standard squash courts and a viewing gallery for spectators.
+Squashed intends to promote the many enticing aspects of the sport. In doing so it will encourage healthy competition, mental wellbeing and an active lifestyle.
 
 ![Responsive Mock-up](assets/images/am-i-responsive-image.JPG)
 
@@ -29,7 +29,7 @@
   - Further details are provided in this section relating to the sports village which is the home venue of the squash club where its matches are to be played. This area is broken down into three sections, horizontally situated when viewed on a device above 1200 pixels and vertically stacked when viewed on any device under 1200px. Details of the three sections are as follows:-
     - Club Address section: This section contains the address of the Sports Center including contact details and a link to the website. Icons relating to location (in this case pins, commonly used as markers on a map) were selected and positioned on either side of the heading. An image of the facilitys logo is provided with a white background and no border so it blends into the white background seemlessly.
     - Court Price section: This section contains details of the cost of hiring a squash court at Aberdeen Sports Village. Icons relating to price (in this case uneven stacks of coins) were selected and positioned on either side of the heading. Below the heading is text stating the time allocated for the hire which is 45 minutes (the standard time for a squash match). Also detailed are 2 sets of prices for peak times and off-peak times. Peak times are when the sports center is at its busiest, as such this is the more expensive court hire price. Off-peak times are when the sports center is quieter, these hours are more anti-social, as such the court hire is cheaper than at peak times. Of the 3 sections contained within Club Details, this section contained the least amount of text. As such an image was added to visually aid this section and provide balance to the page. A stock image of a squash ball with a white background was selected for this purpose. It provides a clean, squash related image that matches well with the selected colour scheme of the website. No image border was added as the white image background blends with the white colouring of this area.
-    - Opening Hours section: This section contains the ASV opening and closing times. Icons relating to time (in this case clock faces) were selected and positioned on either side of the heading. Each day of the week is listed vertically with the facilitys opening and closing times detailed next to each day. Below this is further details as to which hours of the day are classed as peak or off-peak times; this relates to the cost of hiring a squash court as per the court price section above.
+    - Opening Hours section: This section contains the ASV opening and closing times. Icons relating to time (in this case clock faces) were selected and positioned on either side of the heading. Each day of the week is listed vertically with the facilitys opening and closing times detailed next to each day. Below this is further details as to which hours of the day are classed as peak or off-peak times; this relates to the cost of hiring a squash court as per the court price section detailed above.
 
 ![Club Details Section](assets/images/club-details-section-readme.JPG)
 
@@ -49,14 +49,15 @@
 
 - Basic Rules of Squash
   - This page outlines the basic rules of the game of squash. A full screen image of an exhausted squash player lying on a court was used as a background for this page. The image was selected as it is relevant to the subject of the webpage and had the desired layout required for the background to this page. The image layout has the main image body (the squash player) only taking up approximately one third of the right side of the image, leaving a large clear section on the left side showing only empty squash court. This clear area was used as background for overlaying the text detailing the rules. A single icon showing a checklist was selected and positioned next to the page heading for aesthetic purposes. The image was fixed so that it would remain in place whilst scrolling down through the rules, this was acheived by setting the background-attachment to fixed. This page is valuable in that it states the rules of the sport, these rules can be used by beginners still learning the sport or by more experianced club members as a reference point to resolve any match related disagreements.
-  - the background image to this page was modified using Microsoft Paint. The court markings to the left of the image were edited as I didnt like the effect of having this line running through the section of text.
+  - The background image to this page was modified using Microsoft Paint. The court markings to the left of the image were edited as I didnt like the effect of having this line running through the section of text.
+  - Should the image fail to load the background colour is set to white so that the black text of the rules will still be visible.
   
 ![Basic Rules of Squash](assets/images/rules-readme.JPG)
 
 - Gallery
   - The gallery provides the user with club/sport related images displaying squash matches, squash team meetings, squash lessons and medal winners from competition/events.
   - The gallery page is structered to show images displayed using the masonry design style. Images are displayed across four columns when viewed on screen sizes above 950 pixels. Screen sizes of 950px down to 801px will display across 3 columns. The gallery display will reduce to two columns when viewed on any device with a screen size of 800px and below. Thus ensuring gallery images are viewed with ease across all devices.
-  - This section is valuable as it again promotes the feeling of inclusion within the club through displaying images of the squash team members together celebrating success and enjoying the sport.
+  - This section is valuable as it again promotes the feeling of inclusion within the club through displaying images of the squash team members together having fun and enjoying the sport.
 
 ![Gallery](assets/images/gallery-readme.JPG)
 
@@ -81,13 +82,34 @@ The goal of Squashed is to bring together squash players of all abilitys from th
 - Details of the facility where the club plays its matches including location, opening times, closing times and cost of court hire.
 - Rules of the sport of squash.
 - Gallery images of squashed club members.
-- Membership sign-up where current squash ability details are required in order to group players with the aim of 
+- Membership sign-up where current squash ability details are required in order to group players with the aim of creating evenly contested squash matches.
 
+### User Stories, Expectations and Results
+#### Expectation
+As a visitor, I want to understand the main purpose of the site.
+#### Result
+As a visitor, I understand through imagery and content that this is the website for a local squash club offering membership to play matches against players/members of similar ability/experience and the opportunity to represent the club at national competition events.
 
+#### Expectation
+As a visitor, I want to be able to navigate easily around the site and sign up for membership.
+#### Result
+As a visitor, I can easily navigate the site courtesy of the navigation bar and I can select the sign-up page and fill in a form to join.
 
-### Design Choices
+#### Expectation
+As a visitor, I want to be able to see where and when I can play a match of squash and for what price.
+#### Result
+As a visitor, I can easily navigate to the home page where this information is detailed.
 
-### User Stories
+#### Expectation
+As a visitor, I want to be able to learn about the rules of the sport of squash.
+#### Result
+As a visitor, I can easily navigate to the Basic Rules of Squash page.
+
+#### Expectation
+As a visitor, I want to be able to play matches against other club members of similar ability.
+#### Result
+As a visitor, when I sign up I state my ability level to allow members to be grouped for competitive inter-club match-ups.
+
 
 ### Wireframes
 
@@ -115,25 +137,25 @@ The goal of Squashed is to bring together squash players of all abilitys from th
 
 ![Sign-Up Page Wireframe](assets/images/signup-page-wireframe.jpg)
 
-- The Sign-up page was envisaged in the wireframe to be a text overlay on a background of a squash related image. The image selected (post wireframe creation) was a picture of an empty squash court. This was used to border the sign-up form, the form itself was given a grey background with its opacity set to enable it to be partially see through. This resulted in a sleek professional look to the page. Rounded edges were added to the form to contast the sharp edges of the court as displayed in the background image.
+- The Sign-up page was envisaged in the wireframe to be a text overlay on a background of a squash related image. The image selected (post wireframe creation) was a picture of an empty squash court. This was used to border the sign-up form, the form itself was given a grey background with its opacity set to enable it to be partially see through. This resulted in a sleek professional look to the page. Rounded edges were added to the form to contrast the sharp edges of the court as displayed in the background image.
 
 ## Design
 
-  - Colour Scheme
+Colour Scheme
    - The colours used were red, black and white. The reason being these are the standard colours of the markings on a squash court. White for the walls of the court, red for the service and boundry lines and black for the front wall, bottom boundry line (also known as the tin).
 
-  - Typography
+Typography
    - The Roboto font was used for title & headings and the PT Serif font was used for the body of the website. The backup style is Sans-serif should the selected fonts fail to load correctly. I felt both these fonts complemented each other well whilst being easily readable and having a modern look.
 
-  - Images
+Images
    - The hero image is a bright and clean image making the website easily identifiable with the sport of Squash. The colours of the hero image are the same colours as used throughout the website - which are the same colours as would be found on a squash court.
    - The Aberdeen Sports Village Image is incorporated to aid new club members finding the venue where the squash clubs matches will be played. The image was chosen as it shows the sports center looking clean and inviting which aims to heighten the appeal of joining the club.
-   - Home Page stock image of a squash ball was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
-   - The Home Page stock image of an illustration of a squash racket was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
+   - The Home Page stock image of a squash ball was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
+   - The Home Page stock image illustration of a squash racket and ball was chosen to fill space and bring balance to the page. The image was chosen as it is relevant to the sport of squash, the colour schemes match the site and the white background of the image blends with the websites white background to create a clean effect.
    - The Basic Rules of Squash image is a background image that fills the entire body section of the page. The image is of an exhausted squash player lying on a court. The image was selected as it is relevant to the subject of the webpage and had the desired layout required; whereby the main image body (the squash player) is situated to one side of the image. This leaves a large clear area showing only empty squash court which was used for overlaying the text detailing the rules of the sport. The image was doctored using Paint 3D to remove some of the court markings that entered the text section area and obscured the text.
    - The Sign-up page image is a background image that fills the entire body section of the page. The image chosen is of an empty squash court. This image was chosen as it correlates with the topic of the website, the image colour scheme ties in with the colour theme of the site (squash court marking colours - white, black and red) and it also acts as a border to the main element of the page which is the sign-up form itself.
 
-  - Icons
+Icons
    - Icons were incorporated from Font Awesome for aesthetic and UX purposes. Icons were used for the following headings - Club Information, Club Address, Opening Hours, Court Price and Basic Rules of Squash.
 
 ## Testing
@@ -151,19 +173,23 @@ The goal of Squashed is to bring together squash players of all abilitys from th
 ### Bugs
 - When deploying my project to Github it would only display in basic form of text with no styling or imagery. The reason being that my Stylesheet href was set as ../ when it should have been ./ - Removing the extra . meant the stylesheet was able to be located correctly and the styles added as desired.
 - When running my project through W3C HTML Validator the following warning was displayed "Section Lacks Heading" for sections of the index.html and the gallery.html pages. This was resolved using code sourced from a software designer on Slack whereby a hidden heading is added to the relevant sections.
-- When running my project through W3C HTML Validator an error was declared on the Sign-up page. I had added a label to a descriptive piece of text above the radio buttons when all that was required was a p tag.
+- When running my project through W3C HTML Validator an error was declared on the Sign-up page. I had added a label to a descriptive piece of text above the radio buttons when all that was required was a 'p' tag.
 
 ## Technologies Used
 - HTML5
 - CSS3
+- GitHub
+- Gitpod
+- Devtools
+- Paint 3D
 
 ## Deployment & Local Deployment
 ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps:-
 - Log in to GitHub and locate the GitHub Repository
-- At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-- Scroll down the Settings page until you locate the "GitHub Pages" Section.
-- Under "Source", click the dropdown called "None" and select "Master Branch", the page will automatically refresh.
+- Locate and select the "Settings" Button on the menu.
+- Select "Pages" from the left margin menu to reach the "GitHub Pages" Section.
+- Under "Source", click the dropdown called "None" and select "main", then click "Save" which will refresh the page.
 - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
@@ -173,12 +199,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
+The method for cloning a project from GitHub is detailed below:-
 - Log in to GitHub and locate the GitHub Repository
 - Under the repository name, click "Clone or download".
 - To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 - Open Git Bash
 - Change the current working directory to the location where you want the cloned directory to be made.
-- Type git clone, and then paste the URL you copied in Step 3.
+- Type git clone, and then paste the URL you copied from GitHub.
 - Press Enter. Your local clone will be created.
 
 ## Validator Testing
@@ -203,8 +230,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - The Basic Rules of Squash text content was taken from http://www.squashsa.asn.au/w/participation/basic-guide-to-squash
 - The icons used for the following headings: Club Information, Club Address, Opening Hours, Court Price and Basic Rules of Squash were taken from https://fontawesome.com
 - The map section was sourced from https://www.google.com/maps
-- Instructions on how to add a google map to my webpage was taken from https://blog.duda.co/responsive-google-maps-for-your-website
+- Instructions on how to add a google map to my webpage was sourced from https://blog.duda.co/responsive-google-maps-for-your-website
 - The icons in the footer were taken from https://fontawesome.com
+- The Basic Rules of Squash image was modified using Paint 3D.
 
 ### Media
 #### Home Page
@@ -236,5 +264,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 #### Sign Up Page
 - The background image on this page was sourced from the following site: https://asbsquash.com/timeline/info/14/squash-floor-solid-hardwood-or-engineered/
 
+## Acknowledgements
 
+This website was created as a Portfolio 1 Project, thanks go out to the following for assistance given towards creating my final Project 1 submission:-
+- Student Support / Tutor Assistance
+- Owonikoko Oluwaseun - Mentor
+- Slack Community
+- Various YouTube coding content creators
 
